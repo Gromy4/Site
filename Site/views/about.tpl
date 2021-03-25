@@ -8,3 +8,7 @@
 <br>
 <br>
 <br>
+<p>We need couriers, if you are interested please write to this email</p>
+<adress>
+<strong>Job:</strong><a href = "mailto:Support@example.com">23FoodJob@gmail.com</a>
+</adress>
