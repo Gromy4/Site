@@ -36,6 +36,7 @@
         <hr />
         <footer>
             <p>&copy; {{ year }} - 23Food Corp.</p>
+            <a href = "vk.com"><img src = "static/image/img5.jpg" width = "40" height = "40"><a href = "instagramm.com"><img src = "static/image/img6.jpg" width = "40" height = "40"><a href = "facebook.com"><img src = "static/image/img7.jpg" width = "40" height = "40"></a>
         </footer>
     </div>
 
