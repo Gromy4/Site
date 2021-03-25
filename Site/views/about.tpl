@@ -12,3 +12,5 @@
 <adress>
 <strong>Job:</strong><a href = "mailto:Support@example.com">23FoodJob@gmail.com</a>
 </adress>
+<br>
+<img src = "static/image/img8.jpg" widht = "150" height = "250">
