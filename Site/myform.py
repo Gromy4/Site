@@ -1,6 +1,7 @@
 from bottle import post, request
 import re
 import pdb
+import json
 
 @post('/home', method='post')
 def my_form():
@@ -17,7 +18,9 @@ def my_form():
     else:
         if (re.search(reg, mail)):
             questions[mail] = question
-            pdb.set_trace()
+            with open ('slovar.txt', 'a') as outfile:
+                jp = json.dumps(questions)
+                open('slovar.txt', 'a').write('\n' + jp)
             return "Thanks! The answer will be sent to the mail %s" % mail
         else:
             return "Mail doesn`t match to form"
