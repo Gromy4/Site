@@ -21,7 +21,7 @@ def Entry_form():
 
     regexMail = '^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+[^.]\.[a-zA-Z0-9]{2,3}$'
 
-    regexPhone = '^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$'
+    regexPhone = '^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{2}[-\s]?\d{2}$'
 
     if len(partner) == 0 or len(partnersAbout) == 0 or len(mail) == 0 or len(phonenumber) == 0:
 
