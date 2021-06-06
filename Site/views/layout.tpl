@@ -26,6 +26,7 @@
                     <li><a href="/home">Home</a></li>
                     <li><a href="/about">Info</a></li>
                     <li><a href="/contact">For Companies</a></li>
+                    <li><a href="/companies">Companies</a></li>
                 </ul>
             </div>
         </div>

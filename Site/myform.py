@@ -19,8 +19,8 @@ def my_form():
         if (re.search(reg, mail)):
             questions[mail] = question
             with open ('slovar.txt', 'a') as outfile:
-                jp = json.dumps(questions)
-                open('slovar.txt', 'a').write('\n' + jp)
+                x = json.dumps(questions)
+                open('slovar.txt', 'a').write('\n' + x)
             return "Thanks! The answer will be sent to the mail %s" % mail
         else:
             return "Mail doesn`t match to form"
