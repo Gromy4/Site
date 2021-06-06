@@ -33,7 +33,7 @@
 
 </style>
 
-<div class=center id=left>
+
 <p>
 
 <label for="Partners">Partner:</label>
@@ -92,10 +92,8 @@
     <strong>Support:</strong>   <a href="mailto:Support@example.com">23FoodSupport@gmail.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">23FoodMarketing@gmail.com</a>
 </address>
- <footer>
-            <p>&copy; {{ year }} - 23Food Corp.</p>
-            <a href = "vk.com"><img src = "static/image/img5.jpg" width = "40" height = "40"><a href = "instagramm.com"><img src = "static/image/img6.jpg" width = "40" height = "40"><a href = "facebook.com"><img src = "static/image/img7.jpg" width = "40" height = "40"></a>
-</footer>
+
+<div class=center id=left>
 </div>
 
 </body>
